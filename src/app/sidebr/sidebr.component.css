@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(240, 234, 234);
+  }
+  .mat-toolbar{
+      background: rgb(240, 234, 234);
+      color: #214e41;
+      text-align: center;
+      margin-left: 16px;
+      margin-right: 16px;
+      border-radius: 10px;
+      width: 97%;
+      margin-top: 2px;
+     
+    }
+   
+    .hh{
+      margin-left: 1%;
+    }
+     
+    mat-sidenav {
+      margin: 10px;
+      width: 210px;
+      border-right: none;
+      background: #009b72;
+      color: white;
+      border-radius: 10px;
+      padding: 16px;
+      text-align: center;
+      height: 1000px;
+   }
+  
+   .content{
+      height: 880px;
+      margin: 16px;
+      margin-left: 32px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      font-size: 2rem;
+      color: black;
+      background-color: rgb(255, 254, 254);
+  
+      border-radius: 10px;
+         }
+  
+  
+         .menu-button {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          font-size: 1rem;}
+        
+          .menu-button mat-icon {
+            margin-right: 8px;
+          }
+          .avatar {
+              margin-top: 16px;
+              width: 100px;
+              height: 100px;
+              border-radius: 50%;
+            }
+            
+            .name {
+              margin-top: 8px;
+              font-weight: normal;
+            }
+            
+            .designation {
+              margin-top: 2px;
+              font-size: 0.7rem;
+              color: lightgrey;
+            }
+            
+            mat-divider {
+              margin-top: 16px;
+              margin-bottom: 16px;
+              background-color: rgba(255, 255, 255, 0.5);
+            }
+              
+  
+   mat-sidenav-container{
+      height: calc(100vh - 65px);
+               }
