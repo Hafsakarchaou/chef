@@ -11,6 +11,18 @@ import { NavigationEnd, Router } from '@angular/router';
   styleUrls: ['./sidebr.component.css']
 })
 export class SidebrComponent implements OnInit {
+  url="assets/img_avatar2.png"
+  onselectFile(e:any){
+    if(e.target.files){
+      var reader = new FileReader();
+      reader.readAsDataURL(e.target.files[0]);
+      reader.onload=(event:any)=>{
+        this.url=event.target.result;
+      }
+    }
+
+    
+  }
 
   
 
